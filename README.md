@@ -2,12 +2,18 @@
 
 This is a sample application showing how to configure and enable OpenID Connect middleware in a Node.js web application with Express, openid-client and Passport.
 
+## Pre-requisites
+* NodeJS
+* GIT command line
+* Supported IDE e.g. Visual Studio Code
+
 ## Installation
 
 To install this sample application, run the following commands:
 
 ```console
-$ cd XSense-NodeJS_Express-Sample
+$ git clone https://github.com/EnsurityTechnologies/XSense-Node-OIDC-Client.git
+$ cd XSense-Node-OIDC-Client
 $ npm install
 ```
 
@@ -37,5 +43,7 @@ Run the actual website locally:
 $ npm start
 ```
 
-Finally, open your browser, visit [http://localhost:3000](http://localhost:3000)
+## Test the site
+
+Finally, open the browser, visit [http://localhost:3000](http://localhost:3000)
 and test out the site!
